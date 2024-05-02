@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    padding-top: 20px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.list-between {
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 10%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.container ul li ul li {
+    margin-left: 3vw;
+}
+
+.bg-image {
+    background-image: url(../image/travel.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-top {
+    margin-top: 50px;
+}
+
+.container-top {
+    color: grey;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 2vh 0;
+    color: black;
+}
+
+.text-grey {
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+
+.card {
+    width: 35vw;
+}
+
+.card-image {
+    width: 35vw;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.life-text {
+    margin: 1vh 0;
+}
+
+.cards-top {
+    margin-top: 5vh;
+}
+
+h2 {
+    margin-bottom: 1vh;
+    color: black;
+}
+
+.sign-text {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.sign-img {
+    width: 2vw;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.inp input {
+    border: none;
+    outline: 0;
+    margin-right: 1vw;
+    width: 20vw;
+    background: lightgrey;
+}
+
+.sign {
+    background-color: lightgrey;
+}
+
+.btn {
+    color: grey;
+    padding: 20px 50px;
+    border: 2px solid grey;
+}
+
+.container-btn {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+footer {
+    background: grey;
+}
+
+footer ul:first-child {
+    padding: 20px;
+}
+
+.icon {
+    width: 2vw;
+}
+
+.icon,
+.terms {
+    margin: 0 .5vw;
+}
+
+@media screen and (max-width: 877px) {
+    .cards {
+        display: block;
+    }
+
+    .card {
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .card {
+        width: 60vw;
+    }
+    
+    .card-image {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 687px) {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 521px) {
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    h1 {
+        display: none;
+    }
+
+    .photo {
+        color: black;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .inp {
+        padding-top: 10vh;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    h2 {
+        display: none;
+    }
+
+    .photo {
+        color: black;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .inp {
+        padding-top: 10vh;
+    }
+}
